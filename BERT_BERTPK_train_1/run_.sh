@@ -1,9 +1,9 @@
-export WordTree_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_train/BERT_BERTPK_train_1/expl-tablestore-export-2019-09-10-165215
-export Step2_Model_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_train/BERT_BERTPK_train_1/step2/step2_model
-export Step1_Output_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_train/BERT_BERTPK_train_1/step1/step1_output
-export Step2_Output_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_train/BERT_BERTPK_train_1/step2/step2_output
-export Train_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_train/BERT_BERTPK_train_1/expl-tablestore-export-2019-09-10-165215/question_train_1.tsv
-export Dev_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_train/BERT_BERTPK_train_1/expl-tablestore-export-2019-09-10-165215/question_dev_1.tsv
+export WordTree_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_Train/BERT_BERTPK_train_1/expl-tablestore-export-2019-09-10-165215
+export Step2_Model_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_Train/BERT_BERTPK_train_1/step2/step2_model
+export Step1_Output_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_Train/BERT_BERTPK_train_1/step1/step1_output
+export Step2_Output_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_Train/BERT_BERTPK_train_1/step2/step2_output
+export Train_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_Train/BERT_BERTPK_train_1/expl-tablestore-export-2019-09-10-165215/question_train_1.tsv
+export Dev_DIR=/home/zeyuzhang/PycharmProjects/BERT_BERTPK_Train/BERT_BERTPK_train_1/expl-tablestore-export-2019-09-10-165215/question_dev_1.tsv
 export TASK_NAME=EPRG
 
 python step1/run_produce_shortlist.py \
